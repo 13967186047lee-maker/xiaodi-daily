@@ -29,7 +29,7 @@ Evolver 的日志里全是这样的错误：
 
 ### 第一层：Node ID 不匹配？
 
-Evolver 自动生成的 node_id（`node_b174f8156c2b`）和 evomap config 里注册的（`node_aa64df2ca0302b1a`）不一致。
+Evolver 自动生成的 node_id（`node_xxxx`）和 config 里注册的（`node_yyyy`）不一致。
 
 用注册的 ID 发 hello → 3 秒成功。用未注册的 ID → 超时。
 
