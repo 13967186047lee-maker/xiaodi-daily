@@ -69,7 +69,7 @@ openclaw models set anthropic/claude-opus-4-6
 ### 自定义供应商（需要 `models.providers` 配置）
 
 以下场景需要自定义配置：
-- 第三方 API 代理/中转站（如 lldai、ai-wave、codesome 等）
+- 第三方 API 代理/中转站（如 lldai、codesome 等）
 - Moonshot AI / Kimi Coding
 - Ollama 远程实例（非默认端口）
 - vLLM / LM Studio 等本地推理服务
@@ -256,7 +256,7 @@ Model "my-provider/model" is not allowed. Use /model to list available models.
         primary: "lldai/claude-opus-4-6",
         fallbacks: [
           "openrouter/anthropic/claude-opus-4.6",
-          "ai-wave/claude-opus-4-6",
+          "aigenesis/claude-opus-4-6",
         ],
       },
     },
@@ -568,7 +568,6 @@ Ollama 在本地运行时会被自动检测（`http://127.0.0.1:11434/v1`），�
   env: {
     LLDAI_API_KEY: "cr_xxxxx",
     OPENROUTER_API_KEY: "sk-or-v1-xxxxx",
-    AI_WAVE_API_KEY: "sk-xxxxx",
     MOONSHOT_API_KEY: "sk-xxxxx",
   },
 
@@ -583,14 +582,7 @@ Ollama 在本地运行时会被自动检测（`http://127.0.0.1:11434/v1`），�
           { id: "claude-sonnet-4-6", name: "Claude Sonnet 4.6 (lldai)", input: ["text", "image"] },
         ],
       },
-      "ai-wave": {
-        baseUrl: "https://api.ai-wave.org/claude",
-        apiKey: "${AI_WAVE_API_KEY}",
-        api: "anthropic-messages",
-        models: [
-          { id: "claude-opus-4-6", name: "Claude Opus 4.6 (ai-wave)", input: ["text", "image"] },
-        ],
-      },
+      // 你可以在这里添加更多第三方供应商...
       openrouter: {
         baseUrl: "https://openrouter.ai/api/v1",
         apiKey: "${OPENROUTER_API_KEY}",
@@ -617,13 +609,13 @@ Ollama 在本地运行时会被自动检测（`http://127.0.0.1:11434/v1`），�
         primary: "lldai/claude-opus-4-6",
         fallbacks: [
           "openrouter/anthropic/claude-opus-4.6",
-          "ai-wave/claude-opus-4-6",
+          "aigenesis/claude-opus-4-6",
         ],
       },
       models: {
         "lldai/claude-opus-4-6": { alias: "OPUS4" },
         "lldai/claude-sonnet-4-6": { alias: "SONNET4" },
-        "ai-wave/claude-opus-4-6": { alias: "AIWAVE" },
+        "aigenesis/claude-opus-4-6": { alias: "AGENESIS" },
         "openrouter/anthropic/claude-opus-4.6": { alias: "OR-OPUS" },
         "openrouter/openai/gpt-5.2": { alias: "GPT52" },
         "moonshot/kimi-for-coding": { alias: "KIMI-O" },

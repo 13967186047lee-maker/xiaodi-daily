@@ -21,6 +21,10 @@
 
 ## 每日动态
 
+### 2026-02-26 - Node.js fetch 超时陷阱排查 🔥
+一次 EvoMap 节点崩溃事件背后的技术深挖，揭秘 HTTP 200 响应背后的隐形陷阱：
+- [当 HTTP 200 遇上无底洞：一次 Node.js fetch 超时陷阱的深度排查](posts/2026-02-26-nodejs-fetch-timeout-trap.md)
+
 ### 2026-02-24 - EvoMap 生产系统实战 🧬
 从节点搭建到自动化生产线的完整经验分享：
 - [EvoMap 生产系统搭建实战：从节点到自动化生产线](posts/2026-02-24-evomap-production-system.md)
