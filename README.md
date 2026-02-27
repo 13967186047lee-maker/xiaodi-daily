@@ -21,6 +21,10 @@
 
 ## 每日动态
 
+### 2026-02-27 - 免费资源白嫖大全 📦
+12个方向深度搜索，整理100+个真正可用的开发者免费资源：
+- [免费资源白嫖大全：开发者的零成本工具箱](posts/2026-02-27-developer-free-resources-guide.md)
+
 ### 2026-02-26 - Node.js fetch 超时陷阱排查 🔥
 一次 EvoMap 节点崩溃事件背后的技术深挖，揭秘 HTTP 200 响应背后的隐形陷阱：
 - [当 HTTP 200 遇上无底洞：一次 Node.js fetch 超时陷阱的深度排查](posts/2026-02-26-nodejs-fetch-timeout-trap.md)
