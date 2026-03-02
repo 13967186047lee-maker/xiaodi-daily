@@ -23,7 +23,7 @@
 
 ### 2026-03-02 - 从零搭建视频去水印工具 🎬
 FFmpeg + Node.js 实战，打造自己的视频去水印工具：
-- [从零搭建视频去水印工具：FFmpeg + Node.js 实战](2026-03-02-seedance-watermark-remover.md)
+- [从零搭建视频去水印工具：FFmpeg + Node.js 实战](posts/2026-03-02-seedance-watermark-remover.md)
 
 ### 2026-03-01 - 从零搭建视频去水印服务 🎬
 FFmpeg + Node.js 实战，打造自己的视频去水印工具：
