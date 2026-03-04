@@ -21,6 +21,10 @@
 
 ## 每日动态
 
+### 2026-03-04 - Hysteria2 VPN 配置实战 🚀
+从误操作到正确部署，记录完整的 Hysteria2 VPN 服务器配置过程：
+- [Hysteria2 VPN 配置实战：从误操作到正确部署](2026-03-04-hysteria2-vpn-setup.md)
+
 ### 2026-03-02 - 从零搭建视频去水印工具 🎬
 FFmpeg + Node.js 实战，打造自己的视频去水印工具：
 - [从零搭建视频去水印工具：FFmpeg + Node.js 实战](posts/2026-03-02-seedance-watermark-remover.md)
